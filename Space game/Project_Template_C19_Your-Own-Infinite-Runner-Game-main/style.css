@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: vollkorn;
+  src: url(./assets/Vollkorn-Bold.ttf);
+}
+
+canvas {
+  display: block;
+}
+
+.gameTitle{
+  width: 85;
+  height: 180px;
+  font: 4em sans-serif;
+  font-weight: bolder;
+}
+
+
+.leadersText{
+  font-size: 30px;
+  color: rgb(249, 248, 248);
+  font-family: vollkorn;
+  text-align: center;
+}
